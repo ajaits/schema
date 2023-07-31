@@ -1,4 +1,3 @@
-
 # These are auto-generated 
 
 Node: dcid:dc/topic/EconomicEquity
@@ -136,4 +135,3 @@ typeOf: dcs:StatVarPeerGroup
 name: "Incarcerated by Gender"
 member: dcid:dc/03l0q0wyqrk39
 member: dcid:dc/lnp5g90fwpct8
-
