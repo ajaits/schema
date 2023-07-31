@@ -1,32 +1,5 @@
+
 # These are auto-generated 
-
-Node: dcid:dc/topic/Benefits
-typeOf: dcs:Topic
-name: "Benefits"
-relevantVariable: dcid:dc/svpg/dc/topic/Benefits_FoodstampsbyRace
-relevantVariable: dcid:dc/svpg/dc/topic/Benefits_Foodstampsbyhouseholdtype
-
-Node: dcid:dc/svpg/dc/topic/Benefits_FoodstampsbyRace
-typeOf: dcs:StatVarPeerGroup
-name: "Food stamps by Race"
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_AmericanIndianOrAlaskaNativeAlone
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_AsianAlone
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_BlackOrAfricanAmericanAlone
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_HispanicOrLatino
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_NativeHawaiianOrOtherPacificIslanderAlone
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_SomeOtherRaceAlone
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_TwoOrMoreRaces
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_WhiteAlone
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_WhiteAloneNotHispanicOrLatino
-
-Node: dcid:dc/svpg/dc/topic/Benefits_Foodstampsbyhouseholdtype
-typeOf: dcs:StatVarPeerGroup
-name: "Food stamps by household type"
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_FamilyHousehold
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_MarriedCoupleFamilyHousehold
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_NonfamilyHousehold
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_OtherFamilyHousehold
-member: dcid:Count_Household_WithFoodStampsInThePast12Months_SingleFatherFamilyHousehold
 
 Node: dcid:dc/topic/EconomicEquity
 typeOf: dcs:Topic
@@ -105,6 +78,34 @@ name: "college or professional degree by Gender"
 member: dcid:Count_Person_25OrMoreYears_EducationalAttainmentProfessionalSchoolDegree_Female
 member: dcid:Count_Person_25OrMoreYears_EducationalAttainmentProfessionalSchoolDegree_Male
 
+Node: dcid:dc/topic/Foodstamps
+typeOf: dcs:Topic
+name: "Food stamps"
+relevantVariable: dcid:dc/svpg/dc/topic/Foodstamps_FoodstampsbyRace
+relevantVariable: dcid:dc/svpg/dc/topic/Foodstamps_Foodstampsbyhouseholdtype
+
+Node: dcid:dc/svpg/dc/topic/Foodstamps_FoodstampsbyRace
+typeOf: dcs:StatVarPeerGroup
+name: "Food stamps by Race"
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_AmericanIndianOrAlaskaNativeAlone
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_AsianAlone
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_BlackOrAfricanAmericanAlone
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_HispanicOrLatino
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_NativeHawaiianOrOtherPacificIslanderAlone
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_SomeOtherRaceAlone
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_TwoOrMoreRaces
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_WhiteAlone
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_WhiteAloneNotHispanicOrLatino
+
+Node: dcid:dc/svpg/dc/topic/Foodstamps_Foodstampsbyhouseholdtype
+typeOf: dcs:StatVarPeerGroup
+name: "Food stamps by household type"
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_FamilyHousehold
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_MarriedCoupleFamilyHousehold
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_NonfamilyHousehold
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_OtherFamilyHousehold
+member: dcid:Count_Household_WithFoodStampsInThePast12Months_SingleFatherFamilyHousehold
+
 Node: dcid:dc/topic/HealthEquity
 typeOf: dcs:Topic
 name: "Health Equity"
@@ -135,3 +136,4 @@ typeOf: dcs:StatVarPeerGroup
 name: "Incarcerated by Gender"
 member: dcid:dc/03l0q0wyqrk39
 member: dcid:dc/lnp5g90fwpct8
+
