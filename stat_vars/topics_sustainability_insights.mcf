@@ -533,7 +533,6 @@ member: dcid:AirQualityIndex_AirPollutant_CO
 member: dcid:Max_Concentration_AirPollutant_CO
 member: dcid:Mean_Concentration_AirPollutant_CO
 member: dcid:Median_Concentration_AirPollutant_CO
-member: dcid:Min_Concentration_AirPollutant_CO
 
 Node: dcid:dc/svpg/dc/topic/Pollutants_Diesel
 typeOf: dcs:StatVarPeerGroup
@@ -546,8 +545,6 @@ name: "Nitrogen Dioxide"
 member: dcid:AirQualityIndex_AirPollutant_NO2
 member: dcid:Max_Concentration_AirPollutant_NO2
 member: dcid:Mean_Concentration_AirPollutant_NO2
-member: dcid:Median_Concentration_AirPollutant_NO2
-member: dcid:Min_Concentration_AirPollutant_NO2
 
 Node: dcid:dc/svpg/dc/topic/Pollutants_Ozone
 typeOf: dcs:StatVarPeerGroup
@@ -582,8 +579,6 @@ name: "Sulfur Dioxide"
 member: dcid:AirQualityIndex_AirPollutant_SO2
 member: dcid:Max_Concentration_AirPollutant_SO2
 member: dcid:Mean_Concentration_AirPollutant_SO2
-member: dcid:Median_Concentration_AirPollutant_SO2
-member: dcid:Min_Concentration_AirPollutant_SO2
 
 Node: dcid:dc/topic/ProductionConsumptionandWaste
 typeOf: dcs:Topic
